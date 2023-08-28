@@ -21,7 +21,6 @@ import phoenix from "./valorant/phoenix.jpeg";
 import jett from "./valorant/jett.jpeg";
 import fade from "./valorant/fade.jpeg";
 import valChampLogo from "./valorant/valChampLogo.jpg";
-import valorant2023 from "./valorant/valorant2023.avif";
 
 export {
   logo,
@@ -47,5 +46,4 @@ export {
   jett,
   fade,
   valChampLogo,
-  valorant2023
 };
