@@ -9,7 +9,7 @@ const Content = () => {
       {/* Big Image Banner */}
       <section>
         <img
-          src={valorant2023}
+          src={valorant}
           alt="Big Image"
           className="w-full h-[600px]"
         />
