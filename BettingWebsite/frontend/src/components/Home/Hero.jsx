@@ -6,7 +6,6 @@ import Button from "../Global/Button";
 import SpinningImages from "./SpinningImages"; // Import the new component
 
 const Hero = () => {
-  const isMobile = window.innerWidth <= 768; // Check if screen width is less than or equal to 768px
 
   return (
     <section id="home" className={`flex md:flex-row flex-col ${styles.paddingY}`}>
@@ -33,7 +32,7 @@ const Hero = () => {
       </div>
       
       {/* Include the SpinningImages component */}
-      {!isMobile && <SpinningImages />}
+      {<SpinningImages />}
     </section>
   );
 };
